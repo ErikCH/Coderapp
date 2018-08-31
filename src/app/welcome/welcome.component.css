@@ -1,0 +1,40 @@
+
+.one-tile {
+    background: url('https://source.unsplash.com/random/800x800') no-repeat center center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.two-tile {
+    background: url('https://source.unsplash.com/random/600x401') no-repeat center center  ;
+
+}
+.three-tile {
+    background: url('https://source.unsplash.com/random/600x402') no-repeat center center  ;
+
+}
+.four-tile {
+    background: url('https://source.unsplash.com/random/600x403') no-repeat center center  ;
+
+}
+.five-tile {
+    background: url('https://source.unsplash.com/random/800x804') no-repeat center center  ;
+
+}
+.six-tile {
+    background: url('https://source.unsplash.com/random/600x405') no-repeat center center  ;
+
+}
+
+.box-text {
+color: white;
+  font-size: 4rem;
+  font-weight:900;
+  
+}
+

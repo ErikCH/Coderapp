@@ -1,6 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
+:root {
+  --white-off:#fffff2;
+}
+
+body {
+  background-color: var(--white-off)
+}
+.mat-figure:hover {
+  background: rgba(0,0,0,0.2);
+}
+
 .basic-container {
   padding: 30px;
 }
+
+.mat-app-background {
+  background-color: var(--white-off);
+}
+
+
