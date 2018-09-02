@@ -15,13 +15,15 @@ import {
   MatGridListModule,
   MatListModule
 } from '@angular/material';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
