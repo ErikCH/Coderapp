@@ -37,4 +37,8 @@ color: white;
   font-weight:900;
   
 }
+mat-grid-tile {
+  cursor: pointer;
+
+}
 

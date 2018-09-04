@@ -1,0 +1,14 @@
+.footer {
+  background-color: #373737;
+  color: white;
+  display: flex;
+  justify-content:space-around;
+  margin-top: 40px;
+  text-height: 1.6;
+  letter-spacing: 1px;
+  
+}
+
+li {
+  list-style: none;
+}

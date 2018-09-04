@@ -1,8 +1,7 @@
-<app-header></app-header>
 
 <mat-grid-list cols="4" rowHeight="200px" gutterSize="15">
-  <mat-grid-tile *ngFor="let tile of tiles; let i = index" [colspan]="tile.cols" [rowspan]="tile.rows" [ngClass]="tile.class">
-    <div class="box-text" [routerLink]="['product',i+1]">{{tile.text}}</div>
+  <mat-grid-tile *ngFor="let tile of tiles; let i = index" [colspan]="tile.cols" [rowspan]="tile.rows" [ngClass]="tile.class" [routerLink]="['product',tile.id]">
+    <div class="box-text" >{{tile.text}}</div>
   </mat-grid-tile>
   <!-- <mat-grid-tile colspan="2" rowspan="2" class="one-tile">
     <div>
@@ -31,7 +30,3 @@
 
 
 </mat-grid-list>
-
-
-
-<app-footer></app-footer>

@@ -1,10 +1,16 @@
-<button mat-button [matMenuTriggerFor]="menu">Menu</button>
-<mat-menu #menu="matMenu">
-  <button mat-menu-item>Item 1</button>
-  <button mat-menu-item>Item 2</button>
-</mat-menu>
-<button mat-button>Products</button>
 
+<div class="menu-header">
+  <button mat-button [routerLink]="['welcome']">Products</button>
+  <button mat-button>About</button>
+  <button mat-button>Blog</button>
+  <button mat-button>Faq</button>
+  <button mat-button>Contact</button>
+</div>
+  <!--<mat-menu #menu="matMenu">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu> -->
+ 
 <!-- <mat-menu #menu="matMenu">
   <button mat-menu-item>
     <mat-icon>dialpad</mat-icon>
